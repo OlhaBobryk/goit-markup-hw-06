@@ -491,10 +491,10 @@ header {
 
 .modal-form-footer {
     display: flex;
+    gap: 24px;
 }
 
 .modal-form-footer-field {
-    margin-right: 24px;
 }
 
 .styles-item-footer-navigation {
