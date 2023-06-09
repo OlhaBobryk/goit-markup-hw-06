@@ -619,7 +619,6 @@ header {
     position: relative;
     overflow: hidden;
 }
-
 .overlay {
     font-weight: 400;
     font-size: 16px;
@@ -641,8 +640,6 @@ header {
 .portfolio-desk-link:focus .overlay {
     transform: translateY(0);
 }
-
-
 .portfol-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
