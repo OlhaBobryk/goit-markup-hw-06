@@ -345,7 +345,6 @@ header {
     justify-content: center;
 }
 .member-nw-item {
-
 }
 .member-link {
     background-color: #4d5ae5;
@@ -808,7 +807,7 @@ header {
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
     outline: transparent;
-    border: 1px solid rgba(46, 47, 66, 0.2);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     resize: none;
     padding: 8px 16px;
@@ -864,7 +863,7 @@ appearance: none;
 .modal-form-check:checked + .modal-form-check-desc > .contact-form-checkmark{
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    fill: var(--light-cground-clr);
     border-color: #404bbf;
 }
     
