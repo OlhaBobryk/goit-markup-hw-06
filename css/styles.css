@@ -667,19 +667,6 @@ header {
     text-transform: none;
     color: var(--text-description-color);
 }
-.modal-button {
-    display: block;
-    margin-left: auto;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    fill: var(--leading-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--navhover-btn-clr);
-    transition-property: background-color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .modal-icon {
     display: block;
@@ -723,8 +710,10 @@ header {
     justify-content: center;
     background-color: rgba(231, 233, 252, 1);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    fill: var(--leading-color);
     width: 24px;
     height: 24px;
+    margin-left: auto;
     padding-left: 0;
     padding-right: 0;
     border-radius: 50%;
